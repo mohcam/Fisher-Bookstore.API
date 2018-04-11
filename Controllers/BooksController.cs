@@ -87,7 +87,7 @@ namespace Fisher.Bookstore.Api.Controllers
         //set current book to new book
         currentBook.Author = newBook.Author;
         currentBook.PublishDate = newBook.PublishDate;
-        currentBook.Publsher= newBook.Publsher;
+        currentBook.Publisher= newBook.Publisher;
 
         //update and save
         this.db.Books.Update(currentBook);
